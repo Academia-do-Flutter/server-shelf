@@ -1,0 +1,20 @@
+flutter create --project-name=get_it_injectable_exemple --org br.com.academiadoflutter --platforms android,ios -i swift -a kotlin get_it_injectable_exemple
+
+dart migrate --apply-changes
+
+flutter pub run build_runner watch
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dart pub global activate stagehand
+
+dart stagehand server-shelf
+
+.dart_tool\package_config.json
+"type": "dart",
+"program": "${workspaceFolder}/bin/server.dart"
+
+
+Mysql versão: 8.0.23 => Instalando o Mysql Local (imporante!)
+
+COM DOCKER:
+Iniciando o serviço, após o docker-compose.yaml estar configurado
+docker-compose up
