@@ -48,3 +48,5 @@ You should see the logging printed in the first terminal:
 2021-05-06T15:47:08.392928  0:00:00.001216 GET     [200] /echo/I_love_Dart
 ```
 "# server-shelf" 
+
+proxima => Configurando Service Locator (get_it, injectable)
